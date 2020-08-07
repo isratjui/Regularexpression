@@ -6,18 +6,23 @@ In Regular Expression (RE), '*' means occurrence of zero of more characters, '+'
 The following table contains a fixed set of RE that will be used in this assignment.
 
 Description	RE	Valid	Invalid
+
 Zero or more	a(bc)*de	ade
 abcbcde	abde
 abcbde
+
 One or more	a(bc)+de	abcde
 abcbcde	ade
 abc
+
 Once or not at all	a(bc)?de	ade
 abcde	abc
 abcbcde
+
 Character classes	[a-m]*	blackmail
 imbecile	above
 below
+
 Negation of character classes	[^aeiou]	b
 c	a
 e
