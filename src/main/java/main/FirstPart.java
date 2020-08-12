@@ -22,6 +22,7 @@ class FirstPart {
         } else {
             flaga = false;
         }
+        //check
         //checking for de at the end
         int length = (charArray.length) - 1;
         if (charArray[length] == 'e') {
